@@ -1,0 +1,97 @@
+#title-bar{
+    padding-bottom: 30px;
+}
+
+#title-bar #container{
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#title-bar #container nav{
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-color: #333333;
+    -webkit-app-region: drag;
+}
+
+#title-bar #icon{
+    float:left;
+    color:white;
+    padding-left: 0.1em;
+}
+
+#title-bar #icon img{
+    width:20px;
+    height:20px;
+}
+
+
+#title-bar #titleShown{
+    width: 120px;
+    height: 100%;
+    line-height: 30px;
+    color: #f7f7f7;
+    font-size: 0.9em;
+    font-weight: bold;
+    float: left;
+    padding-left: 0.1em;
+}
+#title-bar #menu-navigation-buttons{
+    width:13%;
+    float:left;
+    color:white;
+    height: 100%;
+    line-height: 30px;
+    padding: 0 0 0 1em;
+}
+
+#title-bar #previous, #title-bar #forward, #title-bar #refresh{
+    float: left;
+    height: 100%;
+    width: 33%;
+    text-align: center;
+    color: #f7f7f7;
+    transition: all ease-in-out .2s;
+    cursor: default;
+    -webkit-app-region: no-drag;
+}
+
+#title-bar #menu-navigation-path{
+    width:13%;
+    float:left;
+    color:white;
+    height: 100%;
+    line-height: 30px;
+    padding: 0 0 0 1em;
+}
+
+#title-bar #menu-control-buttons{
+    float: right;
+    width: 150px;
+    height: 100%;
+    line-height: 30px;
+    background-color: #222222;
+    -webkit-app-region: no-drag;
+}
+
+#title-bar #minimize, #title-bar #maximize, #title-bar #close{
+    float: left;
+    height: 100%;
+    width: 33%;
+    text-align: center;
+    color: #f7f7f7;
+    transition: all ease-in-out .2s;
+    cursor: default;
+}
+
+#title-bar #minimize:hover, #title-bar #maximize:hover {
+    background-color: #333333;
+}
+
+#title-bar #close:hover{
+    background-color: #ff0000;
+}
